@@ -23,7 +23,7 @@ import projectImg2 from "../assets/Doctors.png";
 import projectImg3 from "../assets/TASKMANGER.png";
 import projectImg4 from "../assets/image.png";
 import projectImg5 from "../assets/tourism.png";
-import projectImg6 from "../assets/digi.png";
+import projectImg6 from "../assets/Digi.png";
 
 export const assets = {
   profileImg,
