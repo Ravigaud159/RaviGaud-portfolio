@@ -7,14 +7,13 @@ import { FaArrowRight } from "react-icons/fa";
 const Projects = () => {
   return (
     <motion.div
-      initial={{ opacity: 0, y: 50 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 1, ease: "easeOut" }}
-      viewport={{ once: false, amount: 0.2 }}
+      initial={{ opacity: 0, y: 30 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true }}
       id="projects"
       className="py-20 bg-dark-200"
     >
-      <div className="container max-px-6">
+      <div className="container px-6 mx-auto">
         <h2 className="text-3xl font-bold text-center mb-4">
           My <span className="text-amber-400">Projects</span>
         </h2>
