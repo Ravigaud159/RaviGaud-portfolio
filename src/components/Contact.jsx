@@ -144,21 +144,21 @@ const Contact = () => {
               <h3 className="text-lg font-semibold mb-4">Follow me</h3>
               <div className="flex space-x-4">
                 <a
-                  href="#"
+                  href="https://github.com/Ravigaud159"
                   className="w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-amber-400 hover:bg-purple hover:text-white transition duration-300"
                 >
                   <FaGithub />
                 </a>
 
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/ravi-gaud-69471129a/"
                   className="w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-blue-400 hover:bg-blue-400 hover:text-white transition duration-300"
                 >
                   <FaLinkedin />
                 </a>
 
                 <a
-                  href="#"
+                  href="https://x.com/"
                   className="w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-blue-400 hover:bg-blue-400 hover:text-white transition duration-300"
                 >
                   <FaTwitter />
