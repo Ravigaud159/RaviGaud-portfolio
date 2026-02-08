@@ -25,6 +25,7 @@ import projectImg4 from "../assets/image.png";
 import projectImg5 from "../assets/tourism.png";
 import projectImg6 from "../assets/Digi.png";
 import projectImg7 from "../assets/Review.png";
+import projectImg8 from  "../assets/NakshJewels.png";
 
 export const assets = {
   profileImg,
@@ -257,6 +258,27 @@ export const projects = [
     icons: [FaHtml5, FaCss3Alt],
     demo: "https://review-system-livid.vercel.app/",
     code: "https://github.com/Ravigaud159/Review_System?tab=readme-ov-file",
+  },
+
+  {
+    title: "Naksh Jewels – Mini E-Commerce Module",
+    description:
+      "A mini e-commerce application built using React.js and Node.js as part of the Naksh Jewels Internship Assessment. The project features product listing, add-to-cart functionality, and cart management using Context API. Product data is handled using local in-memory storage, and images are served via Unsplash CDN for smooth deployment on Vercel. The application follows clean code practices, responsive design, and includes Docker setup for both frontend and backend.",
+    image: projectImg8, 
+
+    tech: [
+      "React",
+      "Vite",
+      "Node.js",
+      "Express",
+      "Context API",
+      "CSS Modules",
+      "Docker",
+      "Unsplash CDN",
+    ],
+    icons: [FaReact, FaNodeJs],
+    demo: "https://naksh-jewels-frontend-five.vercel.app/",
+    code: "https://github.com/Ravigaud159/NakshJewels_Frontend?tab=readme-ov-file",
   },
 ];
 
