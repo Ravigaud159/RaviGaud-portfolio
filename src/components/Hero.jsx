@@ -33,7 +33,7 @@ const Hero = () => {
           </p>
           <p className="text-lg text-gray-300 mb-8">
             Tech Stack: React.js, JavaScript, HTML, CSS, JAVA, Tailwind CSS, Node.js,
-            Express.js, MongoDB, MySQL, REST APIs, JWT, Git, GitHub, Postman
+            Express.js, MongoDB, MySQL, REST APIs, JWT, Git, GitHub, Postman, Php, Wordpress, Bootstrap.
           </p>
 
           <div className="flex space-x-4">

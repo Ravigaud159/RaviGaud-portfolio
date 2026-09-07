@@ -64,7 +64,7 @@ export const skills = [
     title: "Backend Development",
     icon: FaServer,
     description: "Creating robust server-side applications and RESTful APIs.",
-    tags: ["Node.js", "Express", "Java", "RESTful APIs"],
+    tags: ["Node.js", "Express", "Java", "RESTful APIs", "PHP"],
   },
   {
     title: "Database Management",
@@ -107,12 +107,15 @@ export const skills = [
       "Wordpress",
       "C#",
       ".Net",
+      "WordPress",
+      "Booststrap",
 
       // Backend
       "Node.js",
       "Express",
       "RESTful APIs",
       "JWT",
+      "PHP",
 
       // Databases
       "MongoDB",
@@ -283,10 +286,20 @@ export const projects = [
 ];
 
 export const workData = [
+
+  {
+    role: "Web Developer at Search Digitally (Internship)",
+    company: "Search Digitally",
+    companyLink: "https://searchdigitally.com",
+    duration: "23rd Feb 2026  – 3rd Sep 2026",
+    description:
+      "Worked as a Web Developer at Search Digitally, developing responsive and user-friendly websites using HTML, CSS, JavaScript, Bootstrap, and PHP. Worked with WordPress for website development, customization, and content management. Created responsive web pages, improved website layouts, and contributed to website maintenance and development projects.",
+    color: "purple",
+  },
   {
     role: "Full Stack Developer (Academic Projects)",
     company: "MCA Program Projects",
-    duration: "2025 – Present",
+    duration: "1st Dec 2025 – 3rd Jan 2026",
     description:
       "Developed full-stack applications using the MERN stack (MongoDB, Express, React, Node.js). Created projects such as a Doctor Appointment Booking System and Tourism Management System. Designed REST APIs, handled database operations, and integrated frontend with backend services. Gained hands-on experience in authentication, role-based access, and CRUD operations.",
     color: "purple",
@@ -294,7 +307,7 @@ export const workData = [
   {
     role: "Frontend Developer (Academic Projects)",
     company: "College Projects & Self-Learning",
-    duration: "2024",
+    duration: " 23rd Aug 2024 - 25th Nov 2025",
     description:
       "Designed and developed multiple frontend web applications as part of academic coursework and personal learning. Built responsive and user-friendly interfaces using HTML, CSS, JavaScript, React, and Tailwind CSS. Implemented features like authentication UI, dashboards, form validation, and API integration in project-based learning. Focused on clean UI, component reusability, and performance optimization. Collaborated with classmates on group projects, following basic Git/GitHub workflows.",
     color: "pink",
